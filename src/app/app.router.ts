@@ -1,4 +1,4 @@
-import { RestaurantComponent } from './restaurant/restaurant.component';
+import { RestaurantsComponent } from './restaurant/restaurants.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { Routes } from "@angular/router";
@@ -6,5 +6,5 @@ import { Routes } from "@angular/router";
 export const ROUTES: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'restaurants', component: RestaurantComponent }
+  { path: 'restaurants', component: RestaurantsComponent }
 ]
