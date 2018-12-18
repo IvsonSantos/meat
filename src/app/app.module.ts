@@ -1,3 +1,4 @@
+import { RestaurantsService } from './restaurant/restaurants.service';
 import { RestaurantComponent } from './restaurant/restaurant/restaurant.component';
 import { RestaurantsComponent } from './restaurant/restaurants.component';
 import { ROUTES } from './app.router';
@@ -25,7 +26,7 @@ import { AboutComponent } from './about/about.component';
     HttpModule,
     RouterModule.forRoot(ROUTES)  // para passar as rotas
   ],
-  providers: [],
+  providers: [RestaurantsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
