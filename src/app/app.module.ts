@@ -1,3 +1,7 @@
+import { MeuItemComponent } from './restaurant-detail/meu-item/meu-item.component';
+import { ShoppingCartComponent } from './restaurant-detail/shopping-cart/shopping-cart.component';
+import { MenuComponent } from './restaurant-detail/menu/menu.component';
+import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail.component';
 import { RestaurantsService } from './restaurant/restaurants.service';
 import { RestaurantComponent } from './restaurant/restaurant/restaurant.component';
 import { RestaurantsComponent } from './restaurant/restaurants.component';
@@ -12,6 +16,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +24,11 @@ import { AboutComponent } from './about/about.component';
     HomeComponent,
     AboutComponent,
     RestaurantsComponent,
-    RestaurantComponent
+    RestaurantComponent,
+    RestaurantDetailComponent,
+    MenuComponent,
+    ShoppingCartComponent,
+    MeuItemComponent
   ],
   imports: [
     BrowserModule,
